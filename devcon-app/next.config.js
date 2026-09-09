@@ -221,4 +221,4 @@ const createConfig = phase => {
   return pwaConfig(config)
 }
 
-module.exports = createConfig
+module.exports = createConfig;
