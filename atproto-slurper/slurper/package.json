@@ -4,8 +4,8 @@
   "main": "server.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node server.ts",
-    "dev": "nodemon server.ts"
+    "start": "node init && ts-node server.ts",
+    "dev": "node init && nodemon server.ts"
   },
   "dependencies": {
     "@atproto/api": "^0.3.0",
