@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build --webpack",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && NODE_OPTIONS='--max-old-space-size=4096' next build --webpack",
+    "start": "node init && next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
