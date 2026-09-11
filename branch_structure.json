@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "event-app-ticket-rework",
+    "main",
+    "offline-architecture",
+    "origin",
+    "patron-ticket",
+    "pwa-v1-polish",
+    "redesign-ticket-swag-cards",
+    "rework-session-details-page"
+  ],
+  "parent": {
+    "event-app-ticket-rework": "main",
+    "main": null,
+    "offline-architecture": "main",
+    "origin": "main",
+    "patron-ticket": "main",
+    "pwa-v1-polish": "main",
+    "redesign-ticket-swag-cards": "main",
+    "rework-session-details-page": "main"
+  },
+  "order": [
+    "main",
+    "event-app-ticket-rework",
+    "offline-architecture",
+    "origin",
+    "patron-ticket",
+    "pwa-v1-polish",
+    "redesign-ticket-swag-cards",
+    "rework-session-details-page"
+  ]
+}
