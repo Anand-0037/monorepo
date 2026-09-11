@@ -354,7 +354,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
-// module.exports = withSentryConfig(nextConfig, {
-//   silent: true, // Suppresses all Sentry logs
-// })
