@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
+    "dev": "node init && NODE_ENV=development tsx watch src/server.ts",
+    "build": "node init && tsc",
+    "start": "node init && node dist/server.js",
     "typecheck": "tsc --noEmit",
     "sync:devcon": "tsx scripts/sync-documents.ts --source-type github --source-repo devcon --path ../devcon/content/en",
     "sync:devconnect": "tsx scripts/sync-documents.ts --source-type github --source-repo devconnect --path ../devconnect/cms",
